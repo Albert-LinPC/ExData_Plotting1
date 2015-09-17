@@ -12,7 +12,7 @@ all.data <- read.csv2("data/household_power_consumption.txt",
 plot.data <- all.data[all.data$Date %in% c("1/2/2007", "2/2/2007"), ]
 rm(all.data)
 
-png(filename = "figure/plot3.png", width = 480, height = 480, units = "px")
+png(filename = "plot3.png", width = 480, height = 480, units = "px")
 
 n <- nrow(plot.data)
 
